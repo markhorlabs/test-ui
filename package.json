@@ -14,7 +14,7 @@
     "start": "tsdx watch",
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
-    "prepare": "tsdx build",
+    "prepare": "yarn build",
     "size": "size-limit",
     "analyze": "size-limit --why",
     "storybook": "start-storybook -p 6006",
@@ -36,8 +36,9 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "test-ui",
+  "name": "markhor-test-ui",
   "author": "waqas-ahmd",
+  "description": "This is a test library for React components",
   "module": "dist/test-ui.esm.js",
   "size-limit": [
     {
